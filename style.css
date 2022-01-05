@@ -3,11 +3,24 @@ body {
     margin: 0;
     padding: 0;
 }
+.container {
+    /* height: 20vh; */
+
+    margin: 50px auto;
+    max-width: 960px;
+    width: 96%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
 h1 {
+    /* text-align: center; */
     font-weight: 700;
     font-size: 50px;
 }
 p {
+    text-align: center;
     text-align: justify;
     line-height: 25px;
     font-weight: 500;
@@ -40,6 +53,34 @@ span {
     font-weight: 400;
     border-radius: 5%;
 }
-a {
+/* a {
     padding-bottom: 20px;
+} */
+/* starting mission part */
+.mission-part {
+    display: flex;
 }
+/* .p {
+    flex-direction: column;
+} */
+.img-icon {
+    height: 100px;
+}
+.card {
+    margin-left: 5%;
+    padding: 15px;
+    border-radius: 5%;
+}
+#card-1 {
+    background-color: #edf5f6;
+}
+#card-2 {
+    background-color: #ffeeee;
+}
+#card-3 {
+    background-color: #fff4d6;
+}
+.another-h1 {
+    text-align: center;
+}
+/* end of mission part */
