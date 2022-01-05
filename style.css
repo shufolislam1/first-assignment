@@ -1,0 +1,45 @@
+body {
+    font-family: 'popins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+p {
+    text-align: justify;
+    line-height: 25px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+h5 {
+    font-size: large;
+    font-weight: normal;
+}
+span {
+    color: red;
+}
+.width-problem {
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.width-problem img {
+    width: 80%;
+    height: min-content;
+}
+.img-matter {
+    display: flex;
+}
+.button {
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 400;
+    border-radius: 5%;
+}
+a {
+    padding-bottom: 20px;
+}
