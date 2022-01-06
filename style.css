@@ -84,3 +84,36 @@ span {
     text-align: center;
 }
 /* end of mission part */
+
+/* start of develop part */
+.another-h2 {
+    font-weight: 800;
+    font-size: bolder;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+/* .bg-img {
+    background-image: url(./img/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+} */
+/* end of develop part */
+
+/* start footer */
+.footer {
+    background-color: #0b0d17;
+    text-align: center;
+}
+#italy {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+#footer-p {
+    color: white;
+    text-align: center;
+}
