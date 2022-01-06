@@ -11,8 +11,9 @@ body {
     width: 96%;
 }
 .vl {
-    border-left: 4px solid crimson;
-    line-height: 60px;
+    border-left: 4px solid red;
+    line-height: 65px;
+    padding-left: 15px;
 }
 img {
     max-width: 100%;
