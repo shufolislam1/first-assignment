@@ -1,21 +1,24 @@
 body {
-    font-family: 'popins', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Moon Dance', cursive;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
 .container {
-    /* height: 20vh; */
-
     margin: 50px auto;
     max-width: 960px;
     width: 96%;
+}
+.vl {
+    border-left: 4px solid crimson;
+    line-height: 60px;
 }
 img {
     max-width: 100%;
     height: auto;
 }
 h1 {
-    /* text-align: center; */
     font-weight: 700;
     font-size: 50px;
 }
@@ -53,16 +56,10 @@ span {
     font-weight: 400;
     border-radius: 5%;
 }
-/* a {
-    padding-bottom: 20px;
-} */
 /* starting mission part */
 .mission-part {
     display: flex;
 }
-/* .p {
-    flex-direction: column;
-} */
 .img-icon {
     height: 100px;
 }
@@ -92,28 +89,28 @@ span {
     line-height: 30px;
     letter-spacing: 2px;
 }
-/* .bg-img {
-    background-image: url(./img/shape-1.png);
-    background-repeat: no-repeat;
-    background-position: left;
-} */
+
 /* end of develop part */
+
+/* start about me */
+.radius img {
+    border-radius: 5%;
+}
+/* end about me */
 
 /* start footer */
 .footer {
     background-color: #0b0d17;
     text-align: center;
+    color: white;
+    justify-content: center;
 }
 #italy {
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Poppins', sans-serif;
     text-align: center;
-    color: white;
     padding-top: 10px;
-    font-weight: bolder;
-    font-size: 30px;
+    font-size: 35px;
 }
 #footer-p {
-    color: white;
     text-align: center;
 }
+/* end footer */
